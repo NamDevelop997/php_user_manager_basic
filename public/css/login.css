@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font-otoman, "Times New Roman", Times, serif;
+}
+@font-face {
+  font-family: font-otoman;
+  src: url(../fonts/OtomanopeeOne-Regular.ttf);
+}
+.wrapper {
+  background-image: url(../images/jezael-melgoza-layMbSJ3YOE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login {
+  min-width: 368px;
+  background-color: #0d3be27d;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+.login_form h1 {
+  color: yellow;
+  text-align: center;
+}
+
+.login_form input {
+  letter-spacing: 1px;
+  display: block;
+  width: 100%;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background: #fdffe4;
+}
+.login_form input::placeholder {
+  font-size: 10px;
+}
+p.show_err {
+  font-size: 9px;
+  color: yellow;
+  padding-left: 10px;
+}
+.btn_login {
+  color: rgb(38, 0, 255);
+  font-weight: 700;
+  background-color: #3aff3a !important;
+  transition: all 0.5s;
+}
+.btn_login:hover {
+  color: #3c3b34ed;
+  background-color: #ffc107 !important;
+}
+.login_form a {
+  text-align: center;
+  display: block;
+  font-size: 13px;
+  color: #eaea20;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+.login_form a:hover {
+  color: #8bf378;
+}
